@@ -23,4 +23,4 @@ Abra o arquivo `index.html`.
   - `CSS`
   - `Javascript`
 
-Este projeto sob `licença MIT`.
+Este projeto está sob `licença MIT`.
