@@ -30,3 +30,16 @@ function atualizarLista(){
         lista.innerHTML += `<li>${amigos[index]}</li>`;
     }
 }
+
+function sortearAmigo(){
+    if(amigos.length > 0){
+        let indiceSorteado = Math.floor(Math.random() * amigos.length);
+
+        let resultado = document.getElementById("resultado");
+        resultado.innerHTML = "";
+        resultado.innerHTML += `O amigo ${amigos[indiceSorteado]} foi sorteado!`;
+    }
+    else{
+        alert("A lista de amigos está vazia!");
+    }
+}
